@@ -20,7 +20,7 @@ Doorkeeper.configure do
   admin_authenticator do
     current_user
   end
-
+  api_version "v1"
   # You can use your own model classes if you need to extend (or even override) default
   # Doorkeeper models such as `Application`, `AccessToken` and `AccessGrant.
   #
